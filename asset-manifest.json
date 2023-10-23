@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/resume-builder/static/css/main.4b89faf2.chunk.css",
-    "main.js": "/resume-builder/static/js/main.fe00397d.chunk.js",
-    "main.js.map": "/resume-builder/static/js/main.fe00397d.chunk.js.map",
-    "runtime-main.js": "/resume-builder/static/js/runtime-main.c586c149.js",
-    "runtime-main.js.map": "/resume-builder/static/js/runtime-main.c586c149.js.map",
-    "static/js/2.6f2f68b6.chunk.js": "/resume-builder/static/js/2.6f2f68b6.chunk.js",
-    "static/js/2.6f2f68b6.chunk.js.map": "/resume-builder/static/js/2.6f2f68b6.chunk.js.map",
-    "index.html": "/resume-builder/index.html",
-    "static/css/main.4b89faf2.chunk.css.map": "/resume-builder/static/css/main.4b89faf2.chunk.css.map",
-    "static/js/2.6f2f68b6.chunk.js.LICENSE.txt": "/resume-builder/static/js/2.6f2f68b6.chunk.js.LICENSE.txt"
+    "main.css": "/react-gh-pages/static/css/main.68c702c3.css",
+    "main.js": "/react-gh-pages/static/js/main.2b40077c.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.68c702c3.css.map": "/react-gh-pages/static/css/main.68c702c3.css.map",
+    "main.2b40077c.js.map": "/react-gh-pages/static/js/main.2b40077c.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c586c149.js",
-    "static/js/2.6f2f68b6.chunk.js",
-    "static/css/main.4b89faf2.chunk.css",
-    "static/js/main.fe00397d.chunk.js"
+    "static/css/main.68c702c3.css",
+    "static/js/main.2b40077c.js"
   ]
 }
