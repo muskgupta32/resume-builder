@@ -1,0 +1,72 @@
+.preview-container
+{
+    width: 50%;
+    
+}
+.top-box{
+    height: 12vh;
+    width: 100%;
+}
+.A
+{
+    background-color:#ffb8b8;
+    
+}
+.B
+{
+    background-color:#ff7f50;
+}
+.C
+{
+    
+    background-color:#01a3a4;
+}
+.D
+{
+    background-color:#ebce9b;
+}
+.E
+{
+    background-color:#4f77d2;
+}
+.template-A
+{
+    font-family: "Arial", sans-serif;
+}
+.template-B
+{
+    font-family: "Calibri", sans-serif;
+}
+.template-C
+{
+    font-family: "Times New Roman", serif;
+}
+.template-D
+{
+    font-family: "Georgia", serif;
+}
+.template-E
+{
+    font-family: "Garamond", serif;
+}
+.name-bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+    font-weight: bold;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: safe;
+}
+.bold{
+    font-weight: 600;
+}
+.shift{
+    margin-left:80px ;
+}
