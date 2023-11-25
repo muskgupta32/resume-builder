@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.68c702c3.css",
-    "main.js": "/react-gh-pages/static/js/main.2b40077c.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.68c702c3.css.map": "/react-gh-pages/static/css/main.68c702c3.css.map",
-    "main.2b40077c.js.map": "/react-gh-pages/static/js/main.2b40077c.js.map"
+    "main.css": "/resume-builder/static/css/main.68c702c3.css",
+    "main.js": "/resume-builder/static/js/main.a3cbc48f.js",
+    "index.html": "/resume-builder/index.html",
+    "main.68c702c3.css.map": "/resume-builder/static/css/main.68c702c3.css.map",
+    "main.a3cbc48f.js.map": "/resume-builder/static/js/main.a3cbc48f.js.map"
   },
   "entrypoints": [
     "static/css/main.68c702c3.css",
-    "static/js/main.2b40077c.js"
+    "static/js/main.a3cbc48f.js"
   ]
 }
