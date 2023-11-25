@@ -12,7 +12,7 @@ let Home=()=>{
     console.log(code);
     let dispatch=useDispatch();
     return <>
-    {user?"":<Navigate to="/login"/>}
+    {user?<Navigate to="/"/>:<Navigate to="/login"/>}
     <br/>
    <div className="template-container">
     <div className="row">
