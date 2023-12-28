@@ -3,7 +3,7 @@ let Navbar=()=>{
     return<>
     <nav class="navbar navbar-dark bg-dark">
   <div class="container-fluid">
-    <Link class="navbar-brand" to="/">Resume Builder</Link>
+    <Link class="navbar-brand" to="/home">Resume Builder</Link>
   </div>
 </nav>
     </>

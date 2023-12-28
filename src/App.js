@@ -40,7 +40,7 @@ let App=()=> {
     <Router>
       <Navbar/>
       <Routes>
-      <Route path='/publicpreview/:rid'  element={<Publicpreview/>}>
+      <Route path='/publicpreview'  element={<Publicpreview/>}>
        
        </Route>
       <Route path='/qualifications'  element={<Qualifications/>}>
@@ -56,6 +56,9 @@ let App=()=> {
        
         </Route>
         <Route path='/home'  element={<Home/>}>
+       
+        </Route>
+        <Route path='/resume-builder'  element={<Home/>}>
        
         </Route>
       </Routes>

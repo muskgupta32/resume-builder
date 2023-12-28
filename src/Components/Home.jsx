@@ -12,32 +12,32 @@ let Home=()=>{
     console.log(code);
     let dispatch=useDispatch();
     return <>
-    {user?<Navigate to="/"/>:<Navigate to="/login"/>}
+    {user?<Navigate to="/home"/>:<Navigate to="/login"/>}
     <br/>
    <div className="template-container">
     <div className="row">
     <div className="template template-A col-2 offset-2" 
     onClick={()=>{dispatch(templateCreator("A"));
     navigate("/personal") 
-    }}><img src="http://localhost:3000/skin1.svg"></img></div>
+    }}><img src="http://localhost:3000/skin1.svg" alt="Template A" /></div>
     <div className="template template-B col-2 offset-1"
     onClick={()=>{dispatch(templateCreator("B"));
     navigate("/personal") 
-    }}> <img src="http://localhost:3000/skin2.svg"></img></div>
+    }}> <img src="http://localhost:3000/skin2.svg" alt="Template B" /></div>
     <div className="template template-C col-2 offset-1"
     onClick={()=>{dispatch(templateCreator("C"));
     navigate("/personal") 
-    }}> <img src="http://localhost:3000/skin3.svg"></img></div></div>
+    }}> <img src="http://localhost:3000/skin3.svg" alt="Template C" /></div></div>
     <br/>
     <div className="row">
     <div className="template template-D col-2 offset-3"
     onClick={()=>{dispatch(templateCreator("D"));
     navigate("/personal") 
-    }}> <img src="http://localhost:3000/skin4.svg"></img></div>
+    }}> <img src="http://localhost:3000/skin4.svg" alt="Template D" /></div>
     <div className="template template-E col-2 offset-2"
     onClick={()=>{dispatch(templateCreator("E"));
     navigate("/personal") 
-    }}> <img src="http://localhost:3000/skin5.svg"></img></div>
+    }}> <img src="http://localhost:3000/skin5.svg" alt="Template E" /></div>
     </div>
    </div>
     <button className="home-logout-btn" onClick={()=>{

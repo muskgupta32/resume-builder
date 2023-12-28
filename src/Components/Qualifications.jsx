@@ -57,13 +57,16 @@ let Qualifications=()=>{
   </div> 
   <Preview/>
 </div>
-<button className="btn btn-primary qual-gen" onClick={()=>{
-    alert("localhost:3000/publicpreview/" + saveState.id)
-    }}>Generate Link</button>
+
 <button className="btn btn-primary qual-save" onClick={()=>{
     dispatch(saveResume(uid,details,code))
 }}
 >Save to Database</button>
+
+<button className="btn btn-primary qual-gen" onClick={()=>{
+    dispatch(saveResume(uid,details,code))
+    alert("localhost:3000/publicpreview/" + saveState.id)
+    }}>Generate Link</button>
 
   </>
 }
