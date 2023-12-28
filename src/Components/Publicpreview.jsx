@@ -39,7 +39,7 @@ let Publicpreview=()=>{
             </div>
             </div>
                 </>
-        ):("")}
+        ):("No Data Available!")}
         </>
        
     )
