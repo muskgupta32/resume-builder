@@ -58,7 +58,7 @@ let App=()=> {
         <Route path='/home'  element={<Home/>}>
        
         </Route>
-        <Route path='/resume-builder'  element={<Home/>}>
+        <Route path='/resume-builder/'  element={<Home/>}>
        
         </Route>
         <Route path='/'  element={<Home/>}>
